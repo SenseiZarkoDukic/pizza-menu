@@ -81,6 +81,17 @@ function Menu() {
     </main>
   );
 }
+
+function Pizza() {
+  return (
+    <div>
+      <img src="pizzas/spinaci.jpg" alt="Pizza spinachi" />
+      <h3>Pizza Spinaci</h3>
+      <p>Tomato, mozarella, spinach, and ricotta cheese</p>
+    </div>
+  );
+}
+
 function Footer() {
   const hour = new Date().getHours();
   const openHour = 12;
@@ -97,16 +108,6 @@ function Footer() {
   );
 
   // React.createElement("footer", null, "We're currently open");
-}
-
-function Pizza() {
-  return (
-    <div>
-      <img src="pizzas/spinaci.jpg" alt="Pizza spinachi" />
-      <h3>Pizza Spinaci</h3>
-      <p>Tomato, mozarella, spinach, and ricotta cheese</p>
-    </div>
-  );
 }
 
 // React v18
